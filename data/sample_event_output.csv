@@ -1,0 +1,5 @@
+user_pseudo_id,event_date,button_name,page,user_role
+abc123,2025-06-01,Save Report,Dashboard,admin
+abc123,2025-06-02,Export CSV,Dashboard,admin
+def456,2025-06-01,Save Report,Dashboard,viewer
+ghi789,2025-06-03,Add Widget,Dashboard,editor

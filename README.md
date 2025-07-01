@@ -1,11 +1,11 @@
-# 📊 Custom Event Tracking System
+# Custom Event Tracking System
 
 **Tools:** JavaScript, Google Analytics 4 (GA4), BigQuery, Python  
 **Type:** Analytics | User Behavior Tracking | Retention Analysis
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 Build a custom event-tracking framework for a SaaS dashboard to:
 - Track feature usage and user interactions
@@ -14,7 +14,7 @@ Build a custom event-tracking framework for a SaaS dashboard to:
 
 ---
 
-## 🔧 Tools & Stack
+## Tools & Stack
 
 - JavaScript (frontend event tracking)
 - Google Analytics 4 (event collection)
@@ -23,7 +23,7 @@ Build a custom event-tracking framework for a SaaS dashboard to:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 | Folder       | Description                             |
 |--------------|-----------------------------------------|
@@ -34,7 +34,7 @@ Build a custom event-tracking framework for a SaaS dashboard to:
 
 ---
 
-## 🔹 Live Tracking Example
+##  Live Tracking Example
 
 ```html
 <button data-button-name="Save Report" class="trackable-button">Save Report</button>

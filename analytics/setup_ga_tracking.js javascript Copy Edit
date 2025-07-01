@@ -1,0 +1,23 @@
+// Google Analytics 4 Setup
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
+
+gtag('js', new Date());
+gtag('config', 'G-1098976');
+
+function trackButtonClick(buttonName) {
+  gtag('event', 'button_click', {
+    'button_name': buttonName,
+    'page_location': window.location.href,
+    'user_role': 'admin' // Simulated role
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll('.trackable-button').forEach(button => {
+    button.addEventListener('click', () => {
+      const name = button.getAttribute('data-button-name');
+      trackButtonClick(name);
+    });
+  });
+});
